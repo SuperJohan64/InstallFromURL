@@ -2,7 +2,7 @@
 :: Author: Johan Koolen - https://github.com/SuperJohan64
 :: Date Created: May 02, 2018
 :: Last Motified: January 19, 2020
-:: Purpose: Downloads an executable and runs it with optional arguments.
+:: Purpose: Downloads an executable and runs it with optional arguments
 
 :: Sets the file name of the download. When This script downloads a file, it does not automatically name it like
 :: a browser would so we must specify a name. It is recomended to use the same name the file is given when you
