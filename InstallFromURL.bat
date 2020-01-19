@@ -2,9 +2,9 @@
 :: Date Created: Wed 05/02/2018
 :: Author: Johan Koolen
 ::
-:: Purpose - This script was written to simplyify software installation by downloading executables from a URL and
-::			 and running a silent install. To use this script for a different software package, simply change the
-::			 values of the FileName, FileURL, and InstallArugment variables below.
+:: Purpose: This script was written to simplyify software installation by downloading executables from a URL and
+::			and running a silent install. To use this script for a different software package, simply change the
+::			values of the FileName, FileURL, and InstallArugment variables below.
 
 :: Sets the file name of the download. When This script downloads a file, it does not automatically name it like
 :: a browser would so we must specify a name. It is recomended to use the same name the file is given when you
@@ -26,3 +26,4 @@ set InstallArguments=/S
 %TEMP%\%FileName% %InstallArguments%
 
 PAUSE
+EXIT
