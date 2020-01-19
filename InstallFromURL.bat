@@ -6,8 +6,6 @@
 ::			 and running a silent install. To use this script for a different software package, simply change the
 ::			 values of the FileName, FileURL, and InstallArugment variables below.
 
-@ECHO OFF
-
 :: Sets the file name of the download. When This script downloads a file, it does not automatically name it like
 :: a browser would so we must specify a name. It is recomended to use the same name the file is given when you
 :: download it via a webbrowser.
@@ -26,3 +24,5 @@ set InstallArguments=/S
 
 :: Runs the installation with the specified arugments.
 %TEMP%\%FileName% %InstallArguments%
+
+PAUSE
